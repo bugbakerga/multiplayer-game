@@ -66,7 +66,7 @@ public class Sandwhichqueston : MonoBehaviour
             displayParent.SetActive(false);
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
-            playercont.speed = 5;
+            playercont.speed = 5f;
         }
         else
         {

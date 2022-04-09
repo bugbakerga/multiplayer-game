@@ -12,7 +12,7 @@ public class questontrigger : MonoBehaviour
         if (plyr.gameObject.tag == "Player")
         {
             sandwhichlogic.questonstart();
-            playercont.speed = 0;
+            playercont.speed = 0f;
         }
     }
 }
